@@ -1,0 +1,122 @@
+
+
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+  font-family: Arial, sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(Fondo.jpg);
+  background-size: 100% 100%;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 5px 0;
+}
+li::before {
+  content: "• ";
+  color: #EC6978;
+}
+
+.col-40, .General {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  background: #FAAF0A;
+  padding: 30px;
+  color: #000;
+}
+
+#juego div {
+
+  text-align: center;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.pieza {
+  width: 33.333%;
+  height: 33.333%;
+  float: left;
+
+}
+
+#juego {
+  width: 600px;
+  height: 600px;
+  background-color: white;
+  
+}
+.pieza img {
+  width: 100%;
+  border: 1px solid#000;
+  box-sizing: border-box;
+}
+h1 {
+  color: gray;
+  background-color: yellow;
+  padding: 2%;
+  text-align: center;
+ }
+ h2{
+  color: #FFBF00;
+  text-align: center;
+  text-decoration: underline;  
+}
+#footer {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+p {
+  color: white;
+  text-align: center;
+  margin: 0px;
+  font-size: 140%;
+}
+.col-40{
+  float:  40%
+}
+
+
+}
+//*
+#p1{
+  float: left;
+}
+
+#p2{
+  float: right;
+}
+#p3{
+  float: right;
+
+}
+#p4{
+  float:left;
+}
+#p5{
+  float: right;
+
+}
+
+#p6{
+  float: right;
+}
+#p7{
+  float: left
+}
+#p8{
+  float: right;
+}
+#p9{
+  float: right;
+}
